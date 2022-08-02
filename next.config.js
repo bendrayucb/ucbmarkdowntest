@@ -1,4 +1,5 @@
 module.exports = {
+  distDir: 'out',
   trailingSlash: true,
   webpack: function (config) {
     config.module.rules.push({
